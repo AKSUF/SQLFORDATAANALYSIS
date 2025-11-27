@@ -1,0 +1,51 @@
+
+## 🌐 What the Data Life Cycle Is
+The **data life cycle** describes the journey data takes from its creation (or capture) until its eventual archival or deletion. It’s a framework that highlights both:
+- **States of data** (raw → cleaned → prepared → analyzed → archived).  
+- **Operations applied** (acquisition → storage → cleaning → analysis → preservation).  
+
+The book emphasizes that data, like crude oil, must be refined before it becomes useful.
+
+---
+
+## 🔄 Stages and Operations Explained
+
+### 1. **Data Acquisition / Capture**
+- Collecting raw data from experiments, sensors, transactions, or opportunistic sources.  
+- Raw data is not “neutral” — it reflects sampling choices, biases, and collection methods.  
+- Metadata (descriptions of the dataset) may or may not be present at this stage.
+
+### 2. **Data Storage**
+- Placing raw data into databases, files, or warehouses.  
+- Ensures persistence and accessibility for later steps.  
+
+### 3. **Exploratory Data Analysis (EDA) / Profiling**
+- First look at the dataset to understand attributes, distributions, and quality.  
+- Validates metadata (if available) or helps generate it.  
+- Uses visualization (histograms, plots) and descriptive statistics to detect issues.
+
+### 4. **Data Cleaning / Wrangling**
+- Fixing problems like:  
+  - **Missing values** (NULL, NA, or implicit gaps).  
+  - **Outliers** (values far outside expected ranges).  
+  - **Duplicates** (multiple records referring to the same entity).  
+- Produces **clean data**, but not yet ready for analysis.
+
+### 5. **Data Preparation / Pre-processing**
+- Transforming data into analysis-ready formats:  
+  - Normalization, scaling, standardization.  
+  - Converting types (e.g., discretization, binarization).  
+  - Restructuring datasets (pivoting, denormalization).  
+- Ensures compatibility with statistical and machine learning tools.
+
+### 6. **Data Analysis**
+- Applying statistical, data mining, or machine learning techniques.  
+- Generates insights, confirms or rejects hypotheses, and may trigger iterative cycles of re-analysis.
+
+### 7. **Archival / Preservation**
+- Once analysis is complete, data and results are either:  
+  - **Purged** (deleted), or  
+  - **Archived** (stored long-term for reproducibility or future use).  
+- Metadata must accompany archived data to preserve meaning and context.
+
+
